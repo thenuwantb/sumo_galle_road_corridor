@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-07-16 10:27:12 by Eclipse SUMO netedit Version 1.13.0
+-->
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    
+<!--    <edgeData id="short_dist_bus" file="edge_bus_short_dist.xml" freq="3600" begin="0" end="10800" vTypes="short_distance"-->
+<!--    excludeEmpty="true"/>-->
+
+<!--    <edgeData id="long_dist_bus" file="edge_bus_long_dist.xml" freq="3600" begin="0" end="10800" vTypes="long_distance"-->
+<!--    excludeEmpty="true"/>-->
+
+<!--    <edgeData id="probe_vehicle" file="edge_probe_vehicle.xml" freq="3600" begin="0" end="10800" vTypes="gen_probe"-->
+<!--    excludeEmpty="true"/>-->
+
+    <edgeData id="cross_junction_ratmalana_bus" file="edge_route_busses_300.xml" freq="300" begin="3600" end="14400" vTypes="short_distance long_distance"
+              excludeEmpty="true" aggregate="true"
+              edges="CR_MP_001
+                        CR_MP_002
+                        CR_MP_003
+                        CR_MP_004
+                        CR_MP_005
+                        CR_MP_006
+                        CR_MP_007
+                        CR_MP_008
+                        CR_MP_009
+                        CR_MP_010
+                        CR_MP_011
+                        CR_MP_012
+                        CR_MP_013
+                        CR_MP_014
+                        CR_MP_015
+                        CR_MP_016
+                        CR_MP_017
+                        CR_MP_018
+                        CR_MP_KATU_BUS_JUMP
+                        CR_MP_019
+                        CR_MP_020
+                        CR_MP_021
+                        CR_MP_022
+                        CR_MP_023
+                        CR_MP_024
+                        CR_MP_025
+                        CR_MP_026
+                        CR_MP_027
+                        CR_MP_028
+                        CR_MP_029
+                        CR_MP_030
+                        CR_MP_031
+                        CR_MP_032
+                        CR_MP_033
+                        CR_MP_034
+                        CR_MP_035
+                        CR_MP_036
+                        CR_MP_037
+                        CR_MP_038
+                        CR_MP_039
+                        CR_MP_040
+                        CR_MP_041
+                        CR_MP_042
+                        CR_MP_043
+                        CR_MP_RATH_BUS_JUMP"
+    />
+
+    <edgeData id="cross_junction_ratmalana_probe" file="edge_route_busses_300.xml" freq="300" begin="3600" end="14400" vTypes="gen_probe"
+              excludeEmpty="true" aggregate="true"
+              edges="CR_MP_001
+                        CR_MP_002
+                        CR_MP_003
+                        CR_MP_004
+                        CR_MP_005
+                        CR_MP_006
+                        CR_MP_007
+                        CR_MP_008
+                        CR_MP_009
+                        CR_MP_010
+                        CR_MP_011
+                        CR_MP_012
+                        CR_MP_013
+                        CR_MP_014
+                        CR_MP_015
+                        CR_MP_016
+                        CR_MP_017
+                        CR_MP_018
+                        CR_MP_019
+                        CR_MP_020
+                        CR_MP_021
+                        CR_MP_022
+                        CR_MP_023
+                        CR_MP_024
+                        CR_MP_025
+                        CR_MP_026
+                        CR_MP_027
+                        CR_MP_028
+                        CR_MP_029
+                        CR_MP_030
+                        CR_MP_031
+                        CR_MP_032
+                        CR_MP_033
+                        CR_MP_034
+                        CR_MP_035
+                        CR_MP_036
+                        CR_MP_037
+                        CR_MP_038
+                        CR_MP_039
+                        CR_MP_040
+                        CR_MP_041
+                        CR_MP_042
+                        CR_MP_043"
+    />
+
+    <edgeData id="wellawatta_kollupitiya_bus" file="edge_route_busses_300.xml" freq="300" begin="3600" end="14400" vTypes="short_distance long_distance"
+              excludeEmpty="true" aggregate="true"
+              edges="WK_MP_003 WK_MP_004 WK_MP_005 WK_MP_006 WK_MP_007 WK_MP_008 WK_MP_009 WK_MP_010
+                        WK_MP_011 WK_MP_012 WK_MP_013 WK_MP_014 WK_MP_015 WK_MP_016 WK_MP_017 WK_MP_018
+                        WK_MP_019 WK_MP_020 WK_MP_021 WK_MP_022 WK_MP_023 WK_MP_024 WK_MP_025 WK_MP_026
+                        WK_MP_027 WK_MP_028 WK_MP_029 WK_MP_030 WK_MP_031 WK_MP_032 WK_MP_033 WK_MP_034
+                        WK_MP_035 WK_MP_036 WK_MP_037 WK_MP_038 WK_MP_039 WK_MP_040 WK_MP_041 WK_MP_042
+                        WK_MP_043 WK_MP_044 WK_MP_045 WK_MP_046 WK_MP_047 WK_MP_048 WK_MP_049 WK_MP_050
+                        WK_MP_051 WK_MP_052 WK_MP_053 WK_MP_054 WK_MP_055 WK_MP_056 WK_MP_057 WK_MP_058
+                        WK_MP_059 WK_MP_060 WK_MP_061 WK_MP_062 WK_MP_063 WK_MP_064 WK_MP_065 WK_MP_066
+                        WK_MP_067 WK_MP_068 WK_MP_069 WK_MP_070 WK_MP_071 WK_MP_072 WK_MP_073 WK_MP_074
+                        WK_MP_075 WK_MP_076 WK_MP_077 WK_MP_078"
+    />
+
+    <edgeData id="wellawatta_kollupitiya_probe" file="edge_route_busses_300.xml" freq="300" begin="3600" end="14400"
+              vTypes="gen_probe"
+              excludeEmpty="true" aggregate="true"
+              edges="WK_MP_001 WK_MP_002 WK_MP_003 WK_MP_004 WK_MP_005 WK_MP_006 WK_MP_007 WK_MP_008 WK_MP_009 WK_MP_010
+                        WK_MP_011 WK_MP_012 WK_MP_013 WK_MP_014 WK_MP_015 WK_MP_016 WK_MP_017 WK_MP_018
+                        WK_MP_019 WK_MP_020 WK_MP_021 WK_MP_022 WK_MP_023 WK_MP_024 WK_MP_025 WK_MP_026
+                        WK_MP_027 WK_MP_028 WK_MP_029 WK_MP_030 WK_MP_031 WK_MP_032 WK_MP_033 WK_MP_034
+                        WK_MP_035 WK_MP_036 WK_MP_037 WK_MP_038 WK_MP_039 WK_MP_040 WK_MP_041 WK_MP_042
+                        WK_MP_043 WK_MP_044 WK_MP_045 WK_MP_046 WK_MP_047 WK_MP_048 WK_MP_049 WK_MP_050
+                        WK_MP_051 WK_MP_052 WK_MP_053 WK_MP_054 WK_MP_055 WK_MP_056 WK_MP_057 WK_MP_058
+                        WK_MP_059 WK_MP_060 WK_MP_061 WK_MP_062 WK_MP_063 WK_MP_064 WK_MP_065 WK_MP_066
+                        WK_MP_067 WK_MP_068 WK_MP_069 WK_MP_070 WK_MP_071 WK_MP_072 WK_MP_073 WK_MP_074
+                        WK_MP_075 WK_MP_076 WK_MP_077 WK_MP_078"
+    />
+
+
+<!--    1 hour aggregation-->
+
+    <edgeData id="cross_junction_ratmalana_bus" file="edge_route_busses_3600.xml" freq="3600" begin="3600" end="14400" vTypes="short_distance long_distance"
+              excludeEmpty="true" aggregate="true"
+              edges="CR_MP_001
+                        CR_MP_002
+                        CR_MP_003
+                        CR_MP_004
+                        CR_MP_005
+                        CR_MP_006
+                        CR_MP_007
+                        CR_MP_008
+                        CR_MP_009
+                        CR_MP_010
+                        CR_MP_011
+                        CR_MP_012
+                        CR_MP_013
+                        CR_MP_014
+                        CR_MP_015
+                        CR_MP_016
+                        CR_MP_017
+                        CR_MP_018
+                        CR_MP_KATU_BUS_JUMP
+                        CR_MP_019
+                        CR_MP_020
+                        CR_MP_021
+                        CR_MP_022
+                        CR_MP_023
+                        CR_MP_024
+                        CR_MP_025
+                        CR_MP_026
+                        CR_MP_027
+                        CR_MP_028
+                        CR_MP_029
+                        CR_MP_030
+                        CR_MP_031
+                        CR_MP_032
+                        CR_MP_033
+                        CR_MP_034
+                        CR_MP_035
+                        CR_MP_036
+                        CR_MP_037
+                        CR_MP_038
+                        CR_MP_039
+                        CR_MP_040
+                        CR_MP_041
+                        CR_MP_042
+                        CR_MP_043
+                        CR_MP_RATH_BUS_JUMP"
+    />
+
+    <edgeData id="cross_junction_ratmalana_probe" file="edge_route_busses_3600.xml" freq="3600" begin="3600" end="14400" vTypes="gen_probe"
+              excludeEmpty="true" aggregate="true"
+              edges="CR_MP_001
+                        CR_MP_002
+                        CR_MP_003
+                        CR_MP_004
+                        CR_MP_005
+                        CR_MP_006
+                        CR_MP_007
+                        CR_MP_008
+                        CR_MP_009
+                        CR_MP_010
+                        CR_MP_011
+                        CR_MP_012
+                        CR_MP_013
+                        CR_MP_014
+                        CR_MP_015
+                        CR_MP_016
+                        CR_MP_017
+                        CR_MP_018
+                        CR_MP_019
+                        CR_MP_020
+                        CR_MP_021
+                        CR_MP_022
+                        CR_MP_023
+                        CR_MP_024
+                        CR_MP_025
+                        CR_MP_026
+                        CR_MP_027
+                        CR_MP_028
+                        CR_MP_029
+                        CR_MP_030
+                        CR_MP_031
+                        CR_MP_032
+                        CR_MP_033
+                        CR_MP_034
+                        CR_MP_035
+                        CR_MP_036
+                        CR_MP_037
+                        CR_MP_038
+                        CR_MP_039
+                        CR_MP_040
+                        CR_MP_041
+                        CR_MP_042
+                        CR_MP_043"
+    />
+
+    <edgeData id="wellawatta_kollupitiya_bus" file="edge_route_busses_3600.xml" freq="3600" begin="3600" end="14400" vTypes="short_distance long_distance"
+              excludeEmpty="true" aggregate="true"
+              edges="WK_MP_003 WK_MP_004 WK_MP_005 WK_MP_006 WK_MP_007 WK_MP_008 WK_MP_009 WK_MP_010
+                        WK_MP_011 WK_MP_012 WK_MP_013 WK_MP_014 WK_MP_015 WK_MP_016 WK_MP_017 WK_MP_018
+                        WK_MP_019 WK_MP_020 WK_MP_021 WK_MP_022 WK_MP_023 WK_MP_024 WK_MP_025 WK_MP_026
+                        WK_MP_027 WK_MP_028 WK_MP_029 WK_MP_030 WK_MP_031 WK_MP_032 WK_MP_033 WK_MP_034
+                        WK_MP_035 WK_MP_036 WK_MP_037 WK_MP_038 WK_MP_039 WK_MP_040 WK_MP_041 WK_MP_042
+                        WK_MP_043 WK_MP_044 WK_MP_045 WK_MP_046 WK_MP_047 WK_MP_048 WK_MP_049 WK_MP_050
+                        WK_MP_051 WK_MP_052 WK_MP_053 WK_MP_054 WK_MP_055 WK_MP_056 WK_MP_057 WK_MP_058
+                        WK_MP_059 WK_MP_060 WK_MP_061 WK_MP_062 WK_MP_063 WK_MP_064 WK_MP_065 WK_MP_066
+                        WK_MP_067 WK_MP_068 WK_MP_069 WK_MP_070 WK_MP_071 WK_MP_072 WK_MP_073 WK_MP_074
+                        WK_MP_075 WK_MP_076 WK_MP_077 WK_MP_078"
+    />
+
+    <edgeData id="wellawatta_kollupitiya_probe" file="edge_route_busses_3600.xml" freq="3600" begin="3600" end="14400"
+              vTypes="gen_probe"
+              excludeEmpty="true" aggregate="true"
+              edges="WK_MP_001 WK_MP_002 WK_MP_003 WK_MP_004 WK_MP_005 WK_MP_006 WK_MP_007 WK_MP_008 WK_MP_009 WK_MP_010
+                        WK_MP_011 WK_MP_012 WK_MP_013 WK_MP_014 WK_MP_015 WK_MP_016 WK_MP_017 WK_MP_018
+                        WK_MP_019 WK_MP_020 WK_MP_021 WK_MP_022 WK_MP_023 WK_MP_024 WK_MP_025 WK_MP_026
+                        WK_MP_027 WK_MP_028 WK_MP_029 WK_MP_030 WK_MP_031 WK_MP_032 WK_MP_033 WK_MP_034
+                        WK_MP_035 WK_MP_036 WK_MP_037 WK_MP_038 WK_MP_039 WK_MP_040 WK_MP_041 WK_MP_042
+                        WK_MP_043 WK_MP_044 WK_MP_045 WK_MP_046 WK_MP_047 WK_MP_048 WK_MP_049 WK_MP_050
+                        WK_MP_051 WK_MP_052 WK_MP_053 WK_MP_054 WK_MP_055 WK_MP_056 WK_MP_057 WK_MP_058
+                        WK_MP_059 WK_MP_060 WK_MP_061 WK_MP_062 WK_MP_063 WK_MP_064 WK_MP_065 WK_MP_066
+                        WK_MP_067 WK_MP_068 WK_MP_069 WK_MP_070 WK_MP_071 WK_MP_072 WK_MP_073 WK_MP_074
+                        WK_MP_075 WK_MP_076 WK_MP_077 WK_MP_078"
+    />
+
+</additional>

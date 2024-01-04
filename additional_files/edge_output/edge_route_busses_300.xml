@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-10-19 16:52:47 by Eclipse SUMO sumo Version 1.13.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="network/colombo_galleroad_edges_renamed_60kmph_01082022.net.xml"/>
+        <route-files value="2_7_route_adjustments.rou.xml"/>
+        <additional-files value="input_vType_distribution.add.xml,additional_files/bus/2_bus_stops_edge_rename.add.xml,additional_files/bus/bus_flows_rand_seed.xml,additional_files/general_traffic/gen_traffic_flows.xml,additional_files/tlLogic/tlLogic_delay_based.add.xml,additional_files/edge_output/edge_out_bus.add.xml,additional_files/edge_output/edge_out_all_vehicles.add.xml"/>
+    </input>
+
+    <processing>
+        <lateral-resolution value="1.6"/>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <random_number>
+        <seed value="23434"/>
+    </random_number>
+
+</configuration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="3600.00" end="3900.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="2479.10" numEdges="45" traveltime="812.51" overlapTraveltime="772.74" density="1.81" laneDensity="0.01" occupancy="0.02" waitingTime="354.00" timeLoss="668.67" speed="5.93" speedRelative="0.35" departed="0" arrived="0" entered="148" left="131" laneChangedFrom="40" laneChangedTo="40"/>
+    </interval>
+    <interval begin="3600.00" end="3900.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="853.53" numEdges="43" traveltime="373.83" overlapTraveltime="376.08" density="0.64" laneDensity="0.00" occupancy="0.00" waitingTime="66.00" timeLoss="218.60" speed="11.75" speedRelative="0.70" departed="0" arrived="0" entered="92" left="95" laneChangedFrom="14" laneChangedTo="14"/>
+    </interval>
+    <interval begin="3600.00" end="3900.00" id="wellawatta_kollupitiya_bus"/>
+    <interval begin="3600.00" end="3900.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="483.37" numEdges="78" traveltime="148.37" overlapTraveltime="148.77" density="0.67" laneDensity="0.00" occupancy="0.00" waitingTime="0.00" timeLoss="34.03" speed="16.10" speedRelative="0.97" departed="2" arrived="0" entered="219" left="220" laneChangedFrom="6" laneChangedTo="6"/>
+    </interval>
+    <interval begin="3900.00" end="4200.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="7229.69" numEdges="45" traveltime="699.01" overlapTraveltime="673.18" density="5.28" laneDensity="0.04" occupancy="0.04" waitingTime="396.00" timeLoss="1082.73" speed="6.80" speedRelative="0.41" departed="0" arrived="0" entered="422" left="413" laneChangedFrom="55" laneChangedTo="55"/>
+    </interval>
+    <interval begin="3900.00" end="4200.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="708.03" numEdges="43" traveltime="359.17" overlapTraveltime="359.31" density="0.53" laneDensity="0.00" occupancy="0.00" waitingTime="49.00" timeLoss="152.80" speed="12.29" speedRelative="0.73" departed="0" arrived="0" entered="84" left="83" laneChangedFrom="17" laneChangedTo="17"/>
+    </interval>
+    <interval begin="3900.00" end="4200.00" id="wellawatta_kollupitiya_bus"/>
+    <interval begin="3900.00" end="4200.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="704.10" numEdges="78" traveltime="173.69" overlapTraveltime="173.79" density="0.98" laneDensity="0.00" occupancy="0.00" waitingTime="19.00" timeLoss="86.73" speed="13.78" speedRelative="0.83" departed="2" arrived="0" entered="278" left="279" laneChangedFrom="6" laneChangedTo="6"/>
+    </interval>
+    <interval begin="4200.00" end="4500.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="7666.98" numEdges="45" traveltime="756.44" overlapTraveltime="727.62" density="5.59" laneDensity="0.04" occupancy="0.05" waitingTime="971.00" timeLoss="1686.80" speed="6.29" speedRelative="0.38" departed="0" arrived="0" entered="405" left="408" laneChangedFrom="47" laneChangedTo="47"/>
+    </interval>
+    <interval begin="4200.00" end="4500.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="694.22" numEdges="43" traveltime="383.32" overlapTraveltime="382.92" density="0.52" laneDensity="0.00" occupancy="0.00" waitingTime="53.00" timeLoss="152.40" speed="11.54" speedRelative="0.69" departed="0" arrived="0" entered="76" left="75" laneChangedFrom="15" laneChangedTo="15"/>
+    </interval>
+    <interval begin="4200.00" end="4500.00" id="wellawatta_kollupitiya_bus"/>
+    <interval begin="4200.00" end="4500.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="911.08" numEdges="78" traveltime="175.20" overlapTraveltime="175.41" density="1.27" laneDensity="0.00" occupancy="0.00" waitingTime="19.00" timeLoss="105.52" speed="13.65" speedRelative="0.82" departed="2" arrived="0" entered="354" left="357" laneChangedFrom="9" laneChangedTo="9"/>
+    </interval>
+    <interval begin="4500.00" end="4800.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="6960.15" numEdges="45" traveltime="734.69" overlapTraveltime="707.62" density="5.08" laneDensity="0.04" occupancy="0.04" waitingTime="408.00" timeLoss="994.05" speed="6.47" speedRelative="0.39" departed="0" arrived="0" entered="373" left="374" laneChangedFrom="63" laneChangedTo="63"/>
+    </interval>
+    <interval begin="4500.00" end="4800.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="743.56" numEdges="43" traveltime="324.99" overlapTraveltime="325.38" density="0.56" laneDensity="0.00" occupancy="0.00" waitingTime="22.00" timeLoss="143.60" speed="13.58" speedRelative="0.81" departed="0" arrived="0" entered="94" left="95" laneChangedFrom="22" laneChangedTo="22"/>
+    </interval>
+    <interval begin="4500.00" end="4800.00" id="wellawatta_kollupitiya_bus"/>
+    <interval begin="4500.00" end="4800.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="875.62" numEdges="78" traveltime="165.80" overlapTraveltime="165.99" density="1.22" laneDensity="0.00" occupancy="0.00" waitingTime="2.00" timeLoss="79.34" speed="14.43" speedRelative="0.87" departed="2" arrived="0" entered="364" left="367" laneChangedFrom="8" laneChangedTo="8"/>
+    </interval>
+    <interval begin="4800.00" end="5100.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="6119.06" numEdges="45" traveltime="755.41" overlapTraveltime="730.80" density="4.47" laneDensity="0.03" occupancy="0.04" waitingTime="263.00" timeLoss="771.79" speed="6.27" speedRelative="0.37" departed="0" arrived="0" entered="323" left="328" laneChangedFrom="55" laneChangedTo="55"/>
+    </interval>
+    <interval begin="4800.00" end="5100.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="646.57" numEdges="43" traveltime="392.92" overlapTraveltime="391.05" density="0.49" laneDensity="0.00" occupancy="0.00" waitingTime="95.00" timeLoss="219.82" speed="11.30" speedRelative="0.68" departed="0" arrived="0" entered="74" left="73" laneChangedFrom="12" laneChangedTo="12"/>
+    </interval>
+    <interval begin="4800.00" end="5100.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="82.85" numEdges="76" traveltime="285.67" overlapTraveltime="269.97" density="0.12" laneDensity="0.00" occupancy="0.00" waitingTime="1.00" timeLoss="7.84" speed="8.60" speedRelative="0.52" departed="0" arrived="0" entered="16" left="15" laneChangedFrom="2" laneChangedTo="2"/>
+    </interval>
+    <interval begin="4800.00" end="5100.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="645.24" numEdges="78" traveltime="166.34" overlapTraveltime="166.75" density="0.90" laneDensity="0.00" occupancy="0.00" waitingTime="0.00" timeLoss="56.83" speed="14.36" speedRelative="0.86" departed="2" arrived="0" entered="267" left="268" laneChangedFrom="8" laneChangedTo="8"/>
+    </interval>
+    <interval begin="5100.00" end="5400.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="5293.25" numEdges="45" traveltime="744.78" overlapTraveltime="716.66" density="3.86" laneDensity="0.03" occupancy="0.03" waitingTime="133.00" timeLoss="612.65" speed="6.39" speedRelative="0.38" departed="0" arrived="0" entered="291" left="292" laneChangedFrom="32" laneChangedTo="32"/>
+    </interval>
+    <interval begin="5100.00" end="5400.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="850.22" numEdges="43" traveltime="357.74" overlapTraveltime="358.22" density="0.64" laneDensity="0.00" occupancy="0.00" waitingTime="58.00" timeLoss="246.48" speed="12.33" speedRelative="0.74" departed="0" arrived="0" entered="91" left="92" laneChangedFrom="14" laneChangedTo="14"/>
+    </interval>
+    <interval begin="5100.00" end="5400.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="1539.13" numEdges="76" traveltime="276.47" overlapTraveltime="258.03" density="2.22" laneDensity="0.01" occupancy="0.01" waitingTime="22.00" timeLoss="157.55" speed="9.00" speedRelative="0.54" departed="0" arrived="0" entered="324" left="316" laneChangedFrom="5" laneChangedTo="5"/>
+    </interval>
+    <interval begin="5100.00" end="5400.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="629.13" numEdges="78" traveltime="162.50" overlapTraveltime="162.62" density="0.88" laneDensity="0.00" occupancy="0.00" waitingTime="4.00" timeLoss="67.19" speed="14.72" speedRelative="0.88" departed="2" arrived="0" entered="260" left="262" laneChangedFrom="9" laneChangedTo="9"/>
+    </interval>
+    <interval begin="5400.00" end="5700.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="6591.74" numEdges="45" traveltime="731.98" overlapTraveltime="705.75" density="4.81" laneDensity="0.04" occupancy="0.04" waitingTime="345.00" timeLoss="902.13" speed="6.49" speedRelative="0.39" departed="0" arrived="0" entered="358" left="351" laneChangedFrom="65" laneChangedTo="65"/>
+    </interval>
+    <interval begin="5400.00" end="5700.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="610.43" numEdges="43" traveltime="356.82" overlapTraveltime="355.65" density="0.46" laneDensity="0.00" occupancy="0.00" waitingTime="34.00" timeLoss="133.51" speed="12.42" speedRelative="0.74" departed="0" arrived="0" entered="72" left="72" laneChangedFrom="22" laneChangedTo="22"/>
+    </interval>
+    <interval begin="5400.00" end="5700.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="4219.61" numEdges="76" traveltime="383.61" overlapTraveltime="339.63" density="6.09" laneDensity="0.02" occupancy="0.02" waitingTime="228.00" timeLoss="735.80" speed="6.84" speedRelative="0.41" departed="0" arrived="0" entered="687" left="686" laneChangedFrom="12" laneChangedTo="12"/>
+    </interval>
+    <interval begin="5400.00" end="5700.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="910.41" numEdges="78" traveltime="169.40" overlapTraveltime="169.48" density="1.27" laneDensity="0.00" occupancy="0.00" waitingTime="2.00" timeLoss="100.09" speed="14.13" speedRelative="0.85" departed="2" arrived="0" entered="371" left="373" laneChangedFrom="29" laneChangedTo="29"/>
+    </interval>
+    <interval begin="5700.00" end="6000.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="7573.00" numEdges="45" traveltime="742.87" overlapTraveltime="717.17" density="5.53" laneDensity="0.04" occupancy="0.05" waitingTime="406.00" timeLoss="1092.52" speed="6.39" speedRelative="0.38" departed="0" arrived="0" entered="400" left="404" laneChangedFrom="59" laneChangedTo="59"/>
+    </interval>
+    <interval begin="5700.00" end="6000.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="957.45" numEdges="43" traveltime="392.59" overlapTraveltime="396.20" density="0.72" laneDensity="0.01" occupancy="0.00" waitingTime="104.00" timeLoss="259.78" speed="11.15" speedRelative="0.67" departed="0" arrived="0" entered="99" left="98" laneChangedFrom="32" laneChangedTo="32"/>
+    </interval>
+    <interval begin="5700.00" end="6000.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="3014.82" numEdges="76" traveltime="379.52" overlapTraveltime="336.72" density="4.35" laneDensity="0.01" occupancy="0.01" waitingTime="144.00" timeLoss="492.38" speed="6.90" speedRelative="0.41" departed="0" arrived="0" entered="489" left="493" laneChangedFrom="8" laneChangedTo="8"/>
+    </interval>
+    <interval begin="5700.00" end="6000.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="627.69" numEdges="78" traveltime="164.21" overlapTraveltime="164.06" density="0.88" laneDensity="0.00" occupancy="0.00" waitingTime="18.00" timeLoss="100.43" speed="14.60" speedRelative="0.88" departed="2" arrived="0" entered="252" left="255" laneChangedFrom="19" laneChangedTo="19"/>
+    </interval>
+    <interval begin="6000.00" end="6300.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="6566.01" numEdges="45" traveltime="752.72" overlapTraveltime="724.09" density="4.79" laneDensity="0.04" occupancy="0.04" waitingTime="380.00" timeLoss="1000.65" speed="6.33" speedRelative="0.38" departed="0" arrived="0" entered="352" left="351" laneChangedFrom="55" laneChangedTo="55"/>
+    </interval>
+    <interval begin="6000.00" end="6300.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="881.51" numEdges="43" traveltime="382.78" overlapTraveltime="382.29" density="0.67" laneDensity="0.01" occupancy="0.00" waitingTime="122.00" timeLoss="242.82" speed="11.55" speedRelative="0.69" departed="0" arrived="0" entered="95" left="96" laneChangedFrom="24" laneChangedTo="24"/>
+    </interval>
+    <interval begin="6000.00" end="6300.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="2397.13" numEdges="76" traveltime="398.30" overlapTraveltime="352.01" density="3.46" laneDensity="0.01" occupancy="0.01" waitingTime="67.00" timeLoss="334.88" speed="6.60" speedRelative="0.40" departed="0" arrived="0" entered="366" left="364" laneChangedFrom="6" laneChangedTo="6"/>
+    </interval>
+    <interval begin="6000.00" end="6300.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="793.10" numEdges="78" traveltime="159.76" overlapTraveltime="160.03" density="1.11" laneDensity="0.00" occupancy="0.00" waitingTime="4.00" timeLoss="83.95" speed="14.96" speedRelative="0.90" departed="2" arrived="0" entered="348" left="350" laneChangedFrom="20" laneChangedTo="20"/>
+    </interval>
+    <interval begin="6300.00" end="6600.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="6015.90" numEdges="45" traveltime="735.34" overlapTraveltime="709.71" density="4.39" laneDensity="0.03" occupancy="0.04" waitingTime="182.00" timeLoss="700.27" speed="6.45" speedRelative="0.39" departed="0" arrived="0" entered="323" left="326" laneChangedFrom="40" laneChangedTo="40"/>
+    </interval>
+    <interval begin="6300.00" end="6600.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="832.78" numEdges="43" traveltime="388.64" overlapTraveltime="389.17" density="0.63" laneDensity="0.00" occupancy="0.00" waitingTime="82.00" timeLoss="254.59" speed="11.35" speedRelative="0.68" departed="0" arrived="0" entered="94" left="93" laneChangedFrom="22" laneChangedTo="22"/>
+    </interval>
+    <interval begin="6300.00" end="6600.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="3162.77" numEdges="76" traveltime="433.13" overlapTraveltime="378.58" density="4.56" laneDensity="0.02" occupancy="0.01" waitingTime="163.00" timeLoss="450.82" speed="6.13" speedRelative="0.37" departed="0" arrived="0" entered="463" left="462" laneChangedFrom="11" laneChangedTo="11"/>
+    </interval>
+    <interval begin="6300.00" end="6600.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="654.43" numEdges="78" traveltime="167.26" overlapTraveltime="167.28" density="0.91" laneDensity="0.00" occupancy="0.00" waitingTime="8.00" timeLoss="80.58" speed="14.31" speedRelative="0.86" departed="2" arrived="0" entered="261" left="262" laneChangedFrom="14" laneChangedTo="14"/>
+    </interval>
+    <interval begin="6600.00" end="6900.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="6356.58" numEdges="45" traveltime="731.01" overlapTraveltime="705.20" density="4.64" laneDensity="0.03" occupancy="0.04" waitingTime="201.00" timeLoss="745.18" speed="6.49" speedRelative="0.39" departed="0" arrived="0" entered="353" left="350" laneChangedFrom="45" laneChangedTo="45"/>
+    </interval>
+    <interval begin="6600.00" end="6900.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="744.50" numEdges="43" traveltime="385.03" overlapTraveltime="384.25" density="0.56" laneDensity="0.00" occupancy="0.00" waitingTime="49.00" timeLoss="176.55" speed="11.50" speedRelative="0.69" departed="0" arrived="0" entered="75" left="75" laneChangedFrom="16" laneChangedTo="16"/>
+    </interval>
+    <interval begin="6600.00" end="6900.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="4069.70" numEdges="76" traveltime="439.08" overlapTraveltime="390.55" density="5.87" laneDensity="0.02" occupancy="0.02" waitingTime="244.00" timeLoss="632.78" speed="5.95" speedRelative="0.36" departed="0" arrived="0" entered="575" left="573" laneChangedFrom="16" laneChangedTo="16"/>
+    </interval>
+    <interval begin="6600.00" end="6900.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="765.02" numEdges="78" traveltime="178.50" overlapTraveltime="178.24" density="1.07" laneDensity="0.00" occupancy="0.00" waitingTime="5.00" timeLoss="115.29" speed="13.43" speedRelative="0.81" departed="2" arrived="0" entered="299" left="300" laneChangedFrom="21" laneChangedTo="21"/>
+    </interval>
+    <interval begin="6900.00" end="7200.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="5894.80" numEdges="45" traveltime="757.75" overlapTraveltime="730.35" density="4.30" laneDensity="0.03" occupancy="0.04" waitingTime="321.00" timeLoss="836.86" speed="6.27" speedRelative="0.37" departed="0" arrived="0" entered="309" left="311" laneChangedFrom="51" laneChangedTo="51"/>
+    </interval>
+    <interval begin="6900.00" end="7200.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="650.71" numEdges="43" traveltime="339.63" overlapTraveltime="340.76" density="0.49" laneDensity="0.00" occupancy="0.00" waitingTime="1.00" timeLoss="96.10" speed="12.96" speedRelative="0.77" departed="0" arrived="0" entered="80" left="81" laneChangedFrom="16" laneChangedTo="16"/>
+    </interval>
+    <interval begin="6900.00" end="7200.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="3612.52" numEdges="76" traveltime="418.86" overlapTraveltime="371.50" density="5.21" laneDensity="0.02" occupancy="0.02" waitingTime="219.00" timeLoss="573.49" speed="6.25" speedRelative="0.38" departed="0" arrived="0" entered="533" left="536" laneChangedFrom="10" laneChangedTo="10"/>
+    </interval>
+    <interval begin="6900.00" end="7200.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="884.27" numEdges="78" traveltime="172.91" overlapTraveltime="172.67" density="1.23" laneDensity="0.00" occupancy="0.00" waitingTime="6.00" timeLoss="106.40" speed="13.87" speedRelative="0.83" departed="2" arrived="0" entered="347" left="351" laneChangedFrom="20" laneChangedTo="20"/>
+    </interval>
+    <interval begin="7200.00" end="7500.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="6683.56" numEdges="45" traveltime="761.19" overlapTraveltime="731.06" density="4.88" laneDensity="0.04" occupancy="0.04" waitingTime="347.00" timeLoss="1014.31" speed="6.26" speedRelative="0.37" departed="0" arrived="0" entered="368" left="361" laneChangedFrom="78" laneChangedTo="78"/>
+    </interval>
+    <interval begin="7200.00" end="7500.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="729.72" numEdges="43" traveltime="380.10" overlapTraveltime="379.35" density="0.55" laneDensity="0.00" occupancy="0.00" waitingTime="37.00" timeLoss="165.51" speed="11.64" speedRelative="0.70" departed="0" arrived="0" entered="81" left="80" laneChangedFrom="19" laneChangedTo="19"/>
+    </interval>
+    <interval begin="7200.00" end="7500.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="4111.50" numEdges="76" traveltime="433.50" overlapTraveltime="384.81" density="5.93" laneDensity="0.02" occupancy="0.02" waitingTime="269.00" timeLoss="727.07" speed="6.04" speedRelative="0.36" departed="0" arrived="0" entered="577" left="572" laneChangedFrom="15" laneChangedTo="15"/>
+    </interval>
+    <interval begin="7200.00" end="7500.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="369.20" numEdges="78" traveltime="166.34" overlapTraveltime="166.20" density="0.51" laneDensity="0.00" occupancy="0.00" waitingTime="0.00" timeLoss="50.60" speed="14.41" speedRelative="0.86" departed="0" arrived="0" entered="154" left="155" laneChangedFrom="13" laneChangedTo="13"/>
+    </interval>
+    <interval begin="7500.00" end="7800.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="9365.57" numEdges="45" traveltime="738.89" overlapTraveltime="712.03" density="6.83" laneDensity="0.05" occupancy="0.06" waitingTime="688.00" timeLoss="1745.76" speed="6.43" speedRelative="0.38" departed="0" arrived="0" entered="501" left="494" laneChangedFrom="77" laneChangedTo="77"/>
+    </interval>
+    <interval begin="7500.00" end="7800.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="880.18" numEdges="43" traveltime="431.42" overlapTraveltime="432.28" density="0.66" laneDensity="0.01" occupancy="0.00" waitingTime="74.00" timeLoss="345.40" speed="10.22" speedRelative="0.61" departed="0" arrived="0" entered="80" left="80" laneChangedFrom="13" laneChangedTo="13"/>
+    </interval>
+    <interval begin="7500.00" end="7800.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="4260.90" numEdges="76" traveltime="454.54" overlapTraveltime="396.48" density="6.15" laneDensity="0.02" occupancy="0.02" waitingTime="304.00" timeLoss="800.60" speed="5.86" speedRelative="0.35" departed="0" arrived="0" entered="592" left="596" laneChangedFrom="14" laneChangedTo="14"/>
+    </interval>
+    <interval begin="7500.00" end="7800.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="197.84" numEdges="78" traveltime="174.39" overlapTraveltime="174.30" density="0.28" laneDensity="0.00" occupancy="0.00" waitingTime="9.00" timeLoss="34.86" speed="13.74" speedRelative="0.82" departed="0" arrived="0" entered="78" left="78" laneChangedFrom="4" laneChangedTo="4"/>
+    </interval>
+    <interval begin="7800.00" end="8100.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="10717.41" numEdges="45" traveltime="898.97" overlapTraveltime="861.49" density="7.82" laneDensity="0.06" occupancy="0.07" waitingTime="1989.00" timeLoss="3565.82" speed="5.32" speedRelative="0.32" departed="0" arrived="0" entered="475" left="470" laneChangedFrom="68" laneChangedTo="68"/>
+    </interval>
+    <interval begin="7800.00" end="8100.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="825.65" numEdges="43" traveltime="424.94" overlapTraveltime="422.36" density="0.62" laneDensity="0.00" occupancy="0.00" waitingTime="126.00" timeLoss="338.15" speed="10.46" speedRelative="0.62" departed="0" arrived="0" entered="82" left="81" laneChangedFrom="9" laneChangedTo="9"/>
+    </interval>
+    <interval begin="7800.00" end="8100.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="3276.32" numEdges="76" traveltime="490.48" overlapTraveltime="425.19" density="4.73" laneDensity="0.02" occupancy="0.02" waitingTime="277.00" timeLoss="676.19" speed="5.46" speedRelative="0.33" departed="0" arrived="0" entered="424" left="426" laneChangedFrom="5" laneChangedTo="5"/>
+    </interval>
+    <interval begin="7800.00" end="8100.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="545.39" numEdges="78" traveltime="197.45" overlapTraveltime="196.82" density="0.76" laneDensity="0.00" occupancy="0.00" waitingTime="16.00" timeLoss="106.15" speed="12.17" speedRelative="0.73" departed="0" arrived="0" entered="189" left="186" laneChangedFrom="13" laneChangedTo="13"/>
+    </interval>
+    <interval begin="8100.00" end="8400.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="11091.23" numEdges="45" traveltime="979.43" overlapTraveltime="937.07" density="8.09" laneDensity="0.06" occupancy="0.07" waitingTime="2582.00" timeLoss="4305.03" speed="4.89" speedRelative="0.29" departed="0" arrived="0" entered="453" left="459" laneChangedFrom="70" laneChangedTo="70"/>
+    </interval>
+    <interval begin="8100.00" end="8400.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1162.95" numEdges="43" traveltime="715.37" overlapTraveltime="704.64" density="0.88" laneDensity="0.01" occupancy="0.00" waitingTime="406.00" timeLoss="720.62" speed="6.27" speedRelative="0.37" departed="0" arrived="0" entered="66" left="67" laneChangedFrom="18" laneChangedTo="18"/>
+    </interval>
+    <interval begin="8100.00" end="8400.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="3022.20" numEdges="76" traveltime="432.20" overlapTraveltime="384.73" density="4.36" laneDensity="0.01" occupancy="0.01" waitingTime="205.00" timeLoss="525.45" speed="6.04" speedRelative="0.36" departed="0" arrived="0" entered="425" left="423" laneChangedFrom="7" laneChangedTo="7"/>
+    </interval>
+    <interval begin="8100.00" end="8400.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="203.49" numEdges="78" traveltime="202.01" overlapTraveltime="200.38" density="0.28" laneDensity="0.00" occupancy="0.00" waitingTime="6.00" timeLoss="40.03" speed="11.95" speedRelative="0.72" departed="0" arrived="0" entered="70" left="72" laneChangedFrom="11" laneChangedTo="11"/>
+    </interval>
+    <interval begin="8400.00" end="8700.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="11379.65" numEdges="45" traveltime="1006.26" overlapTraveltime="960.12" density="8.30" laneDensity="0.06" occupancy="0.07" waitingTime="2316.00" timeLoss="4277.82" speed="4.77" speedRelative="0.29" departed="0" arrived="0" entered="467" left="461" laneChangedFrom="72" laneChangedTo="72"/>
+    </interval>
+    <interval begin="8400.00" end="8700.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1221.11" numEdges="43" traveltime="652.82" overlapTraveltime="642.71" density="0.92" laneDensity="0.01" occupancy="0.00" waitingTime="371.00" timeLoss="674.57" speed="6.87" speedRelative="0.41" departed="0" arrived="0" entered="79" left="77" laneChangedFrom="22" laneChangedTo="22"/>
+    </interval>
+    <interval begin="8400.00" end="8700.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="3482.44" numEdges="76" traveltime="447.69" overlapTraveltime="393.95" density="5.02" laneDensity="0.02" occupancy="0.02" waitingTime="299.00" timeLoss="723.51" speed="5.90" speedRelative="0.35" departed="0" arrived="0" entered="491" left="491" laneChangedFrom="12" laneChangedTo="12"/>
+    </interval>
+    <interval begin="8400.00" end="8700.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="263.18" numEdges="78" traveltime="188.79" overlapTraveltime="187.82" density="0.37" laneDensity="0.00" occupancy="0.00" waitingTime="6.00" timeLoss="40.26" speed="12.75" speedRelative="0.76" departed="0" arrived="0" entered="99" left="98" laneChangedFrom="5" laneChangedTo="5"/>
+    </interval>
+    <interval begin="8700.00" end="9000.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="10609.58" numEdges="45" traveltime="1079.89" overlapTraveltime="1030.15" density="7.74" laneDensity="0.06" occupancy="0.07" waitingTime="2290.00" timeLoss="4332.23" speed="4.45" speedRelative="0.27" departed="0" arrived="0" entered="392" left="392" laneChangedFrom="60" laneChangedTo="60"/>
+    </interval>
+    <interval begin="8700.00" end="9000.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1224.74" numEdges="43" traveltime="777.25" overlapTraveltime="762.13" density="0.93" laneDensity="0.01" occupancy="0.00" waitingTime="338.00" timeLoss="773.01" speed="5.80" speedRelative="0.35" departed="0" arrived="0" entered="70" left="70" laneChangedFrom="12" laneChangedTo="12"/>
+    </interval>
+    <interval begin="8700.00" end="9000.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="2357.64" numEdges="76" traveltime="492.50" overlapTraveltime="425.94" density="3.40" laneDensity="0.01" occupancy="0.01" waitingTime="124.00" timeLoss="354.37" speed="5.45" speedRelative="0.33" departed="0" arrived="0" entered="300" left="306" laneChangedFrom="6" laneChangedTo="6"/>
+    </interval>
+    <interval begin="8700.00" end="9000.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="434.76" numEdges="78" traveltime="192.20" overlapTraveltime="191.92" density="0.61" laneDensity="0.00" occupancy="0.00" waitingTime="13.00" timeLoss="86.07" speed="12.48" speedRelative="0.75" departed="0" arrived="0" entered="156" left="156" laneChangedFrom="10" laneChangedTo="10"/>
+    </interval>
+    <interval begin="9000.00" end="9300.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="11299.02" numEdges="45" traveltime="1023.94" overlapTraveltime="977.29" density="8.24" laneDensity="0.06" occupancy="0.07" waitingTime="1835.00" timeLoss="4428.26" speed="4.69" speedRelative="0.28" departed="0" arrived="0" entered="445" left="453" laneChangedFrom="77" laneChangedTo="77"/>
+    </interval>
+    <interval begin="9000.00" end="9300.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1676.99" numEdges="43" traveltime="671.55" overlapTraveltime="663.18" density="1.27" laneDensity="0.01" occupancy="0.00" waitingTime="324.00" timeLoss="1010.55" speed="6.66" speedRelative="0.40" departed="0" arrived="0" entered="106" left="105" laneChangedFrom="20" laneChangedTo="20"/>
+    </interval>
+    <interval begin="9000.00" end="9300.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="1860.13" numEdges="76" traveltime="467.06" overlapTraveltime="406.63" density="2.68" laneDensity="0.01" occupancy="0.01" waitingTime="39.00" timeLoss="191.90" speed="5.71" speedRelative="0.34" departed="0" arrived="0" entered="254" left="252" laneChangedFrom="2" laneChangedTo="2"/>
+    </interval>
+    <interval begin="9000.00" end="9300.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="185.23" numEdges="78" traveltime="179.70" overlapTraveltime="179.18" density="0.26" laneDensity="0.00" occupancy="0.00" waitingTime="6.00" timeLoss="43.06" speed="13.36" speedRelative="0.80" departed="0" arrived="0" entered="70" left="71" laneChangedFrom="6" laneChangedTo="6"/>
+    </interval>
+    <interval begin="9300.00" end="9600.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="10932.22" numEdges="45" traveltime="955.00" overlapTraveltime="908.36" density="7.98" laneDensity="0.06" occupancy="0.07" waitingTime="1433.00" timeLoss="3964.87" speed="5.04" speedRelative="0.30" departed="0" arrived="0" entered="474" left="468" laneChangedFrom="76" laneChangedTo="76"/>
+    </interval>
+    <interval begin="9300.00" end="9600.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1694.96" numEdges="43" traveltime="891.64" overlapTraveltime="876.45" density="1.28" laneDensity="0.01" occupancy="0.00" waitingTime="383.58" timeLoss="1165.99" speed="5.04" speedRelative="0.30" departed="0" arrived="0" entered="78" left="78" laneChangedFrom="14" laneChangedTo="14"/>
+    </interval>
+    <interval begin="9300.00" end="9600.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="2964.86" numEdges="76" traveltime="404.63" overlapTraveltime="358.52" density="4.28" laneDensity="0.01" occupancy="0.01" waitingTime="99.00" timeLoss="378.62" speed="6.48" speedRelative="0.39" departed="0" arrived="0" entered="453" left="448" laneChangedFrom="17" laneChangedTo="17"/>
+    </interval>
+    <interval begin="9300.00" end="9600.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="270.66" numEdges="78" traveltime="172.61" overlapTraveltime="172.19" density="0.38" laneDensity="0.00" occupancy="0.00" waitingTime="12.00" timeLoss="57.56" speed="13.91" speedRelative="0.83" departed="0" arrived="0" entered="110" left="110" laneChangedFrom="1" laneChangedTo="1"/>
+    </interval>
+    <interval begin="9600.00" end="9900.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="11167.63" numEdges="45" traveltime="1022.97" overlapTraveltime="975.34" density="8.15" laneDensity="0.06" occupancy="0.07" waitingTime="1475.00" timeLoss="4268.76" speed="4.70" speedRelative="0.28" departed="0" arrived="0" entered="439" left="437" laneChangedFrom="77" laneChangedTo="77"/>
+    </interval>
+    <interval begin="9600.00" end="9900.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1309.85" numEdges="43" traveltime="797.75" overlapTraveltime="785.39" density="0.99" laneDensity="0.01" occupancy="0.00" waitingTime="242.00" timeLoss="894.09" speed="5.62" speedRelative="0.34" departed="0" arrived="0" entered="71" left="72" laneChangedFrom="25" laneChangedTo="25"/>
+    </interval>
+    <interval begin="9600.00" end="9900.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="4346.29" numEdges="76" traveltime="429.11" overlapTraveltime="380.69" density="6.27" laneDensity="0.02" occupancy="0.02" waitingTime="473.00" timeLoss="1039.02" speed="6.10" speedRelative="0.37" departed="0" arrived="0" entered="618" left="618" laneChangedFrom="8" laneChangedTo="8"/>
+    </interval>
+    <interval begin="9600.00" end="9900.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="25.64" numEdges="78" traveltime="166.37" overlapTraveltime="167.65" density="0.04" laneDensity="0.00" occupancy="0.00" waitingTime="0.00" timeLoss="5.14" speed="14.28" speedRelative="0.86" departed="0" arrived="0" entered="8" left="9" laneChangedFrom="1" laneChangedTo="1"/>
+    </interval>
+    <interval begin="9900.00" end="10200.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="11467.20" numEdges="45" traveltime="1046.46" overlapTraveltime="996.46" density="8.37" laneDensity="0.06" occupancy="0.07" waitingTime="1695.00" timeLoss="4585.86" speed="4.60" speedRelative="0.27" departed="0" arrived="0" entered="458" left="460" laneChangedFrom="66" laneChangedTo="66"/>
+    </interval>
+    <interval begin="9900.00" end="10200.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1453.17" numEdges="43" traveltime="805.80" overlapTraveltime="794.91" density="1.10" laneDensity="0.01" occupancy="0.00" waitingTime="217.35" timeLoss="971.24" speed="5.56" speedRelative="0.33" departed="0" arrived="0" entered="77" left="78" laneChangedFrom="28" laneChangedTo="28"/>
+    </interval>
+    <interval begin="9900.00" end="10200.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="4365.27" numEdges="76" traveltime="438.05" overlapTraveltime="387.64" density="6.30" laneDensity="0.02" occupancy="0.02" waitingTime="467.00" timeLoss="1055.66" speed="5.99" speedRelative="0.36" departed="0" arrived="0" entered="625" left="622" laneChangedFrom="12" laneChangedTo="12"/>
+    </interval>
+    <interval begin="9900.00" end="10200.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="218.12" numEdges="78" traveltime="182.72" overlapTraveltime="181.11" density="0.30" laneDensity="0.00" occupancy="0.00" waitingTime="6.00" timeLoss="39.40" speed="13.22" speedRelative="0.79" departed="0" arrived="0" entered="83" left="81" laneChangedFrom="7" laneChangedTo="7"/>
+    </interval>
+    <interval begin="10200.00" end="10500.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="11154.23" numEdges="45" traveltime="1074.96" overlapTraveltime="1028.63" density="8.14" laneDensity="0.06" occupancy="0.07" waitingTime="1710.00" timeLoss="4708.54" speed="4.45" speedRelative="0.27" departed="0" arrived="0" entered="408" left="410" laneChangedFrom="63" laneChangedTo="63"/>
+    </interval>
+    <interval begin="10200.00" end="10500.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1523.50" numEdges="43" traveltime="826.37" overlapTraveltime="813.86" density="1.15" laneDensity="0.01" occupancy="0.00" waitingTime="273.00" timeLoss="976.45" speed="5.43" speedRelative="0.32" departed="0" arrived="0" entered="75" left="74" laneChangedFrom="19" laneChangedTo="19"/>
+    </interval>
+    <interval begin="10200.00" end="10500.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="3194.05" numEdges="76" traveltime="437.64" overlapTraveltime="381.66" density="4.61" laneDensity="0.02" occupancy="0.01" waitingTime="243.00" timeLoss="615.93" speed="6.09" speedRelative="0.37" departed="0" arrived="0" entered="458" left="463" laneChangedFrom="5" laneChangedTo="5"/>
+    </interval>
+    <interval begin="10200.00" end="10500.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="209.36" numEdges="78" traveltime="170.98" overlapTraveltime="171.09" density="0.29" laneDensity="0.00" occupancy="0.00" waitingTime="3.00" timeLoss="42.77" speed="14.00" speedRelative="0.84" departed="0" arrived="0" entered="82" left="83" laneChangedFrom="2" laneChangedTo="2"/>
+    </interval>
+    <interval begin="10500.00" end="10800.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="11019.75" numEdges="45" traveltime="1183.16" overlapTraveltime="1119.42" density="8.04" laneDensity="0.06" occupancy="0.07" waitingTime="2042.00" timeLoss="5313.70" speed="4.09" speedRelative="0.24" departed="0" arrived="0" entered="389" left="390" laneChangedFrom="72" laneChangedTo="72"/>
+    </interval>
+    <interval begin="10500.00" end="10800.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1468.39" numEdges="43" traveltime="874.53" overlapTraveltime="860.19" density="1.11" laneDensity="0.01" occupancy="0.00" waitingTime="327.00" timeLoss="1009.00" speed="5.14" speedRelative="0.31" departed="0" arrived="0" entered="74" left="75" laneChangedFrom="18" laneChangedTo="18"/>
+    </interval>
+    <interval begin="10500.00" end="10800.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="2715.65" numEdges="76" traveltime="414.44" overlapTraveltime="365.53" density="3.92" laneDensity="0.01" occupancy="0.01" waitingTime="131.00" timeLoss="416.46" speed="6.35" speedRelative="0.38" departed="0" arrived="0" entered="405" left="403" laneChangedFrom="12" laneChangedTo="12"/>
+    </interval>
+    <interval begin="10500.00" end="10800.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="391.99" numEdges="78" traveltime="220.91" overlapTraveltime="218.42" density="0.55" laneDensity="0.00" occupancy="0.00" waitingTime="38.00" timeLoss="101.01" speed="10.96" speedRelative="0.66" departed="0" arrived="0" entered="123" left="121" laneChangedFrom="9" laneChangedTo="9"/>
+    </interval>
+    <interval begin="10800.00" end="11100.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="11365.25" numEdges="45" traveltime="1156.88" overlapTraveltime="1100.43" density="8.29" laneDensity="0.06" occupancy="0.07" waitingTime="1953.00" timeLoss="4977.30" speed="4.16" speedRelative="0.25" departed="0" arrived="0" entered="393" left="387" laneChangedFrom="61" laneChangedTo="61"/>
+    </interval>
+    <interval begin="10800.00" end="11100.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1460.99" numEdges="43" traveltime="865.64" overlapTraveltime="850.16" density="1.10" laneDensity="0.01" occupancy="0.00" waitingTime="320.00" timeLoss="974.72" speed="5.20" speedRelative="0.31" departed="0" arrived="0" entered="69" left="68" laneChangedFrom="18" laneChangedTo="18"/>
+    </interval>
+    <interval begin="10800.00" end="11100.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="3663.04" numEdges="76" traveltime="422.27" overlapTraveltime="371.23" density="5.28" laneDensity="0.02" occupancy="0.02" waitingTime="261.00" timeLoss="704.82" speed="6.26" speedRelative="0.38" departed="0" arrived="0" entered="545" left="543" laneChangedFrom="8" laneChangedTo="8"/>
+    </interval>
+    <interval begin="10800.00" end="11100.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="350.25" numEdges="78" traveltime="212.81" overlapTraveltime="211.63" density="0.49" laneDensity="0.00" occupancy="0.00" waitingTime="20.00" timeLoss="111.74" speed="11.32" speedRelative="0.68" departed="0" arrived="0" entered="113" left="116" laneChangedFrom="7" laneChangedTo="7"/>
+    </interval>
+    <interval begin="11100.00" end="11400.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="12222.85" numEdges="45" traveltime="1134.16" overlapTraveltime="1075.71" density="8.92" laneDensity="0.07" occupancy="0.08" waitingTime="2117.00" timeLoss="5356.31" speed="4.26" speedRelative="0.25" departed="0" arrived="0" entered="452" left="447" laneChangedFrom="61" laneChangedTo="61"/>
+    </interval>
+    <interval begin="11100.00" end="11400.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1725.93" numEdges="43" traveltime="1044.74" overlapTraveltime="1021.68" density="1.30" laneDensity="0.01" occupancy="0.00" waitingTime="411.00" timeLoss="1258.26" speed="4.32" speedRelative="0.26" departed="0" arrived="0" entered="73" left="72" laneChangedFrom="16" laneChangedTo="16"/>
+    </interval>
+    <interval begin="11100.00" end="11400.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="3508.80" numEdges="76" traveltime="445.46" overlapTraveltime="395.75" density="5.06" laneDensity="0.02" occupancy="0.02" waitingTime="264.00" timeLoss="773.00" speed="5.87" speedRelative="0.35" departed="0" arrived="0" entered="484" left="487" laneChangedFrom="10" laneChangedTo="10"/>
+    </interval>
+    <interval begin="11100.00" end="11400.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="427.48" numEdges="78" traveltime="228.66" overlapTraveltime="233.09" density="0.60" laneDensity="0.00" occupancy="0.00" waitingTime="10.00" timeLoss="152.40" speed="10.27" speedRelative="0.62" departed="0" arrived="0" entered="132" left="130" laneChangedFrom="7" laneChangedTo="7"/>
+    </interval>
+    <interval begin="11400.00" end="11700.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="12933.72" numEdges="45" traveltime="1151.24" overlapTraveltime="1094.21" density="9.44" laneDensity="0.07" occupancy="0.08" waitingTime="2611.00" timeLoss="5875.71" speed="4.19" speedRelative="0.25" departed="0" arrived="0" entered="457" left="459" laneChangedFrom="68" laneChangedTo="68"/>
+    </interval>
+    <interval begin="11400.00" end="11700.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1857.93" numEdges="43" traveltime="1101.02" overlapTraveltime="1082.80" density="1.40" laneDensity="0.01" occupancy="0.00" waitingTime="493.00" timeLoss="1350.47" speed="4.08" speedRelative="0.24" departed="0" arrived="0" entered="68" left="67" laneChangedFrom="18" laneChangedTo="18"/>
+    </interval>
+    <interval begin="11400.00" end="11700.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="3510.02" numEdges="76" traveltime="469.19" overlapTraveltime="413.08" density="5.06" laneDensity="0.02" occupancy="0.02" waitingTime="307.00" timeLoss="804.98" speed="5.62" speedRelative="0.34" departed="0" arrived="0" entered="458" left="453" laneChangedFrom="11" laneChangedTo="11"/>
+    </interval>
+    <interval begin="11400.00" end="11700.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="451.51" numEdges="78" traveltime="290.99" overlapTraveltime="292.46" density="0.63" laneDensity="0.00" occupancy="0.00" waitingTime="32.00" timeLoss="237.79" speed="8.19" speedRelative="0.49" departed="0" arrived="0" entered="102" left="103" laneChangedFrom="5" laneChangedTo="5"/>
+    </interval>
+    <interval begin="11700.00" end="12000.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="13184.22" numEdges="45" traveltime="1438.33" overlapTraveltime="1364.82" density="9.62" laneDensity="0.07" occupancy="0.08" waitingTime="3634.00" timeLoss="7221.53" speed="3.36" speedRelative="0.20" departed="0" arrived="0" entered="372" left="371" laneChangedFrom="50" laneChangedTo="50"/>
+    </interval>
+    <interval begin="11700.00" end="12000.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1772.53" numEdges="43" traveltime="832.92" overlapTraveltime="815.59" density="1.34" laneDensity="0.01" occupancy="0.00" waitingTime="391.00" timeLoss="1165.30" speed="5.42" speedRelative="0.32" departed="0" arrived="0" entered="94" left="96" laneChangedFrom="24" laneChangedTo="24"/>
+    </interval>
+    <interval begin="11700.00" end="12000.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="3947.82" numEdges="76" traveltime="448.44" overlapTraveltime="397.73" density="5.70" laneDensity="0.02" occupancy="0.02" waitingTime="360.00" timeLoss="905.86" speed="5.84" speedRelative="0.35" departed="0" arrived="0" entered="536" left="540" laneChangedFrom="15" laneChangedTo="15"/>
+    </interval>
+    <interval begin="11700.00" end="12000.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="490.59" numEdges="78" traveltime="221.45" overlapTraveltime="221.97" density="0.68" laneDensity="0.00" occupancy="0.00" waitingTime="24.00" timeLoss="159.74" speed="10.79" speedRelative="0.65" departed="0" arrived="0" entered="146" left="145" laneChangedFrom="11" laneChangedTo="11"/>
+    </interval>
+    <interval begin="12000.00" end="12300.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="12896.34" numEdges="45" traveltime="1494.29" overlapTraveltime="1403.88" density="9.41" laneDensity="0.07" occupancy="0.08" waitingTime="3411.00" timeLoss="7081.36" speed="3.26" speedRelative="0.19" departed="0" arrived="0" entered="354" left="359" laneChangedFrom="37" laneChangedTo="37"/>
+    </interval>
+    <interval begin="12000.00" end="12300.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1818.23" numEdges="43" traveltime="1044.98" overlapTraveltime="1028.46" density="1.37" laneDensity="0.01" occupancy="0.00" waitingTime="257.00" timeLoss="1333.45" speed="4.30" speedRelative="0.26" departed="0" arrived="0" entered="71" left="70" laneChangedFrom="9" laneChangedTo="9"/>
+    </interval>
+    <interval begin="12000.00" end="12300.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="4465.24" numEdges="76" traveltime="550.88" overlapTraveltime="486.53" density="6.44" laneDensity="0.02" occupancy="0.02" waitingTime="705.00" timeLoss="1478.16" speed="4.77" speedRelative="0.29" departed="0" arrived="0" entered="520" left="519" laneChangedFrom="6" laneChangedTo="6"/>
+    </interval>
+    <interval begin="12000.00" end="12300.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="792.98" numEdges="78" traveltime="384.34" overlapTraveltime="369.55" density="1.11" laneDensity="0.00" occupancy="0.00" waitingTime="117.00" timeLoss="477.13" speed="6.48" speedRelative="0.39" departed="0" arrived="0" entered="153" left="154" laneChangedFrom="20" laneChangedTo="20"/>
+    </interval>
+    <interval begin="12300.00" end="12600.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="13350.80" numEdges="45" traveltime="1486.38" overlapTraveltime="1415.36" density="9.74" laneDensity="0.07" occupancy="0.08" waitingTime="3402.00" timeLoss="7272.69" speed="3.24" speedRelative="0.19" departed="0" arrived="0" entered="362" left="355" laneChangedFrom="40" laneChangedTo="40"/>
+    </interval>
+    <interval begin="12300.00" end="12600.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1875.59" numEdges="43" traveltime="1259.51" overlapTraveltime="1234.36" density="1.42" laneDensity="0.01" occupancy="0.00" waitingTime="320.00" timeLoss="1459.97" speed="3.58" speedRelative="0.21" departed="0" arrived="0" entered="63" left="61" laneChangedFrom="17" laneChangedTo="17"/>
+    </interval>
+    <interval begin="12300.00" end="12600.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="4060.05" numEdges="76" traveltime="539.18" overlapTraveltime="473.47" density="5.86" laneDensity="0.02" occupancy="0.02" waitingTime="622.00" timeLoss="1368.70" speed="4.91" speedRelative="0.29" departed="0" arrived="0" entered="468" left="471" laneChangedFrom="7" laneChangedTo="7"/>
+    </interval>
+    <interval begin="12300.00" end="12600.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="510.16" numEdges="78" traveltime="283.96" overlapTraveltime="279.82" density="0.71" laneDensity="0.00" occupancy="0.00" waitingTime="56.00" timeLoss="269.43" speed="8.56" speedRelative="0.51" departed="0" arrived="0" entered="124" left="124" laneChangedFrom="8" laneChangedTo="8"/>
+    </interval>
+    <interval begin="12600.00" end="12900.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="13301.72" numEdges="45" traveltime="1355.68" overlapTraveltime="1279.59" density="9.71" laneDensity="0.07" occupancy="0.08" waitingTime="3400.00" timeLoss="6866.42" speed="3.58" speedRelative="0.21" departed="0" arrived="0" entered="401" left="406" laneChangedFrom="45" laneChangedTo="45"/>
+    </interval>
+    <interval begin="12600.00" end="12900.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="2277.88" numEdges="43" traveltime="1258.47" overlapTraveltime="1230.04" density="1.72" laneDensity="0.01" occupancy="0.01" waitingTime="636.27" timeLoss="1769.77" speed="3.59" speedRelative="0.21" departed="0" arrived="0" entered="76" left="77" laneChangedFrom="18" laneChangedTo="18"/>
+    </interval>
+    <interval begin="12600.00" end="12900.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="3410.50" numEdges="76" traveltime="509.71" overlapTraveltime="443.13" density="4.92" laneDensity="0.02" occupancy="0.02" waitingTime="381.00" timeLoss="1019.74" speed="5.24" speedRelative="0.31" departed="0" arrived="0" entered="412" left="411" laneChangedFrom="6" laneChangedTo="6"/>
+    </interval>
+    <interval begin="12600.00" end="12900.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="366.15" numEdges="78" traveltime="452.39" overlapTraveltime="434.66" density="0.51" laneDensity="0.00" occupancy="0.00" waitingTime="55.00" timeLoss="228.78" speed="5.51" speedRelative="0.33" departed="0" arrived="0" entered="63" left="62" laneChangedFrom="5" laneChangedTo="5"/>
+    </interval>
+    <interval begin="12900.00" end="13200.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="13300.99" numEdges="45" traveltime="1566.93" overlapTraveltime="1468.71" density="9.71" laneDensity="0.07" occupancy="0.08" waitingTime="3702.00" timeLoss="7487.13" speed="3.12" speedRelative="0.19" departed="0" arrived="0" entered="354" left="351" laneChangedFrom="38" laneChangedTo="38"/>
+    </interval>
+    <interval begin="12900.00" end="13200.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1914.74" numEdges="43" traveltime="1019.16" overlapTraveltime="1000.07" density="1.45" laneDensity="0.01" occupancy="0.00" waitingTime="400.00" timeLoss="1400.57" speed="4.42" speedRelative="0.26" departed="0" arrived="0" entered="80" left="81" laneChangedFrom="17" laneChangedTo="17"/>
+    </interval>
+    <interval begin="12900.00" end="13200.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="4345.81" numEdges="76" traveltime="540.60" overlapTraveltime="468.16" density="6.27" laneDensity="0.02" occupancy="0.02" waitingTime="646.00" timeLoss="1474.79" speed="4.96" speedRelative="0.30" departed="0" arrived="0" entered="506" left="502" laneChangedFrom="5" laneChangedTo="5"/>
+    </interval>
+    <interval begin="12900.00" end="13200.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="909.58" numEdges="78" traveltime="335.51" overlapTraveltime="321.80" density="1.27" laneDensity="0.00" occupancy="0.00" waitingTime="196.00" timeLoss="487.84" speed="7.44" speedRelative="0.45" departed="0" arrived="0" entered="183" left="180" laneChangedFrom="15" laneChangedTo="15"/>
+    </interval>
+    <interval begin="13200.00" end="13500.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="13504.67" numEdges="45" traveltime="1447.05" overlapTraveltime="1356.59" density="9.85" laneDensity="0.07" occupancy="0.08" waitingTime="3752.00" timeLoss="7334.26" speed="3.38" speedRelative="0.20" departed="0" arrived="0" entered="399" left="398" laneChangedFrom="52" laneChangedTo="52"/>
+    </interval>
+    <interval begin="13200.00" end="13500.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="2186.12" numEdges="43" traveltime="1302.02" overlapTraveltime="1266.88" density="1.65" laneDensity="0.01" occupancy="0.01" waitingTime="706.00" timeLoss="1748.88" speed="3.49" speedRelative="0.21" departed="0" arrived="0" entered="77" left="75" laneChangedFrom="22" laneChangedTo="22"/>
+    </interval>
+    <interval begin="13200.00" end="13500.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="4309.29" numEdges="76" traveltime="620.53" overlapTraveltime="530.74" density="6.22" laneDensity="0.02" occupancy="0.02" waitingTime="819.00" timeLoss="1760.81" speed="4.38" speedRelative="0.26" departed="0" arrived="0" entered="446" left="446" laneChangedFrom="6" laneChangedTo="6"/>
+    </interval>
+    <interval begin="13200.00" end="13500.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="1102.74" numEdges="78" traveltime="796.35" overlapTraveltime="740.54" density="1.54" laneDensity="0.00" occupancy="0.00" waitingTime="320.00" timeLoss="869.61" speed="3.23" speedRelative="0.19" departed="0" arrived="0" entered="109" left="111" laneChangedFrom="9" laneChangedTo="9"/>
+    </interval>
+    <interval begin="13500.00" end="13800.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="13817.03" numEdges="45" traveltime="1459.65" overlapTraveltime="1375.89" density="10.08" laneDensity="0.08" occupancy="0.09" waitingTime="3814.00" timeLoss="7514.40" speed="3.33" speedRelative="0.20" departed="0" arrived="0" entered="365" left="363" laneChangedFrom="35" laneChangedTo="35"/>
+    </interval>
+    <interval begin="13500.00" end="13800.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="2170.45" numEdges="43" traveltime="1401.45" overlapTraveltime="1381.06" density="1.64" laneDensity="0.01" occupancy="0.01" waitingTime="684.00" timeLoss="1746.10" speed="3.20" speedRelative="0.19" departed="0" arrived="0" entered="56" left="56" laneChangedFrom="20" laneChangedTo="20"/>
+    </interval>
+    <interval begin="13500.00" end="13800.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="5401.39" numEdges="76" traveltime="591.50" overlapTraveltime="501.94" density="7.79" laneDensity="0.03" occupancy="0.03" waitingTime="1002.00" timeLoss="2105.16" speed="4.63" speedRelative="0.28" departed="0" arrived="0" entered="610" left="606" laneChangedFrom="15" laneChangedTo="15"/>
+    </interval>
+    <interval begin="13500.00" end="13800.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="1127.58" numEdges="78" traveltime="473.18" overlapTraveltime="456.28" density="1.57" laneDensity="0.01" occupancy="0.00" waitingTime="178.36" timeLoss="756.01" speed="5.25" speedRelative="0.31" departed="0" arrived="0" entered="169" left="169" laneChangedFrom="14" laneChangedTo="14"/>
+    </interval>
+    <interval begin="13800.00" end="14100.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="13905.78" numEdges="45" traveltime="1732.26" overlapTraveltime="1618.39" density="10.15" laneDensity="0.08" occupancy="0.09" waitingTime="4765.00" timeLoss="8407.78" speed="2.83" speedRelative="0.17" departed="0" arrived="0" entered="331" left="332" laneChangedFrom="32" laneChangedTo="32"/>
+    </interval>
+    <interval begin="13800.00" end="14100.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="2163.78" numEdges="43" traveltime="1238.76" overlapTraveltime="1210.48" density="1.63" laneDensity="0.01" occupancy="0.01" waitingTime="668.00" timeLoss="1658.10" speed="3.65" speedRelative="0.22" departed="0" arrived="0" entered="75" left="75" laneChangedFrom="13" laneChangedTo="13"/>
+    </interval>
+    <interval begin="13800.00" end="14100.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="6020.20" numEdges="76" traveltime="646.54" overlapTraveltime="553.12" density="8.69" laneDensity="0.03" occupancy="0.03" waitingTime="1275.00" timeLoss="2735.12" speed="4.20" speedRelative="0.25" departed="0" arrived="0" entered="575" left="575" laneChangedFrom="10" laneChangedTo="10"/>
+    </interval>
+    <interval begin="13800.00" end="14100.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="537.16" numEdges="78" traveltime="1214.27" overlapTraveltime="1102.16" density="0.75" laneDensity="0.00" occupancy="0.00" waitingTime="183.00" timeLoss="463.52" speed="2.17" speedRelative="0.13" departed="0" arrived="0" entered="37" left="39" laneChangedFrom="3" laneChangedTo="3"/>
+    </interval>
+    <interval begin="14100.00" end="14400.00" id="cross_junction_ratmalana_bus">
+        <edge id="AGGREGATED" sampledSeconds="12614.86" numEdges="45" traveltime="1778.95" overlapTraveltime="1664.86" density="9.21" laneDensity="0.07" occupancy="0.08" waitingTime="4287.00" timeLoss="7800.70" speed="2.75" speedRelative="0.16" departed="0" arrived="0" entered="279" left="283" laneChangedFrom="35" laneChangedTo="35"/>
+    </interval>
+    <interval begin="14100.00" end="14400.00" id="cross_junction_ratmalana_probe">
+        <edge id="AGGREGATED" sampledSeconds="1609.99" numEdges="43" traveltime="1135.16" overlapTraveltime="1110.53" density="1.22" laneDensity="0.01" occupancy="0.00" waitingTime="592.00" timeLoss="1210.57" speed="3.98" speedRelative="0.24" departed="0" arrived="0" entered="60" left="64" laneChangedFrom="10" laneChangedTo="10"/>
+    </interval>
+    <interval begin="14100.00" end="14400.00" id="wellawatta_kollupitiya_bus">
+        <edge id="AGGREGATED" sampledSeconds="7255.11" numEdges="76" traveltime="717.55" overlapTraveltime="614.75" density="10.47" laneDensity="0.03" occupancy="0.03" waitingTime="1884.00" timeLoss="3568.35" speed="3.78" speedRelative="0.23" departed="0" arrived="0" entered="657" left="652" laneChangedFrom="15" laneChangedTo="15"/>
+    </interval>
+    <interval begin="14100.00" end="14400.00" id="wellawatta_kollupitiya_probe">
+        <edge id="AGGREGATED" sampledSeconds="434.45" numEdges="78" traveltime="263.78" overlapTraveltime="258.05" density="0.61" laneDensity="0.00" occupancy="0.00" waitingTime="30.00" timeLoss="179.90" speed="9.28" speedRelative="0.56" departed="0" arrived="0" entered="117" left="116" laneChangedFrom="6" laneChangedTo="6"/>
+    </interval>
+</meandata>

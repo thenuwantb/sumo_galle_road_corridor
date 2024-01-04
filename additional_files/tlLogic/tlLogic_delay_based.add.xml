@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-07-16 10:27:12 by Eclipse SUMO netedit Version 1.13.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    
+    
+	<tlLogic id="3617768739" type="delay_based" programID="2" offset="0">
+	
+		<param key="detectorRange" value="100" />
+		<param key="minTimeLoss" value="60" />
+		<param key="file" value="NULL"/>
+		<param key="freq" value="300"/>
+		<param key="show-detectors" value="false"/>
+	
+        <phase duration="35" minDur="25" maxDur="45" state="GGGGrr"/>
+        <phase duration="2"  state="yyyyrr"/>
+        <phase duration="20" minDur="10" maxDur="30" state="rrrrGG"/>
+        <phase duration="2"  state="rrrryy"/>
+		
+    </tlLogic>
+	
+    <tlLogic id="cluster_1249666100_cluster_1838419547_666903979" type="delay_based" programID="2" offset="0">
+	
+		<param key="detectorRange" value="100" />
+		<param key="minTimeLoss" value="60" />
+		<param key="file" value="NULL"/>
+		<param key="freq" value="300"/>
+		<param key="show-detectors" value="false"/>
+		
+        <phase duration="20" minDur="10" maxDur="30" state="rrrrrGGGGG"/>
+        <phase duration="2"  state="yrrrryyyyG"/>
+        <phase duration="50" minDur="40" maxDur="60" state="gGGGGrrrrG"/>
+        <phase duration="2"  state="yyyyyrrrrG"/>
+		
+    </tlLogic>
+
+    <tlLogic id="cluster_1278003886_4798918376" type="delay_based" programID="2" offset="0">
+
+        <param key="detectorRange" value="100" />
+		<param key="minTimeLoss" value="30" />
+		<param key="file" value="NULL"/>
+		<param key="freq" value="300"/>
+		<param key="show-detectors" value="false"/>
+
+        <phase duration="61" minDur="50" maxDur="70" state="rrGGGGGGGr"/>
+        <phase duration="2"  state="rryyyyGGGy"/>
+        <phase duration="49"  minDur="40" maxDur="50" state="rrrrrrGGGG"/>
+        <phase duration="2"  state="rrrrrryyyy"/>
+        <phase duration="71"  minDur="60" maxDur="75" state="GGGrrrrrrr"/>
+        <phase duration="2"  state="yyyyyyyyyr"/>
+
+    </tlLogic>
+
+    <tlLogic id="cluster_1683151514_1683151516_1683151517_3822164769" type="delay_based" programID="2" offset="0">
+
+        <param key="detectorRange" value="100" />
+		<param key="minTimeLoss" value="60" />
+		<param key="file" value="NULL"/>
+		<param key="freq" value="300"/>
+		<param key="show-detectors" value="false"/>
+
+        <phase duration="30" state="rrrrrGgrGrrrrrggg" minDur="20" maxDur="40"/>
+        <phase duration="2"  state="rrrrryyryryyyyyyy"/>
+        <phase duration="20" state="rrrrrrrrrGGGGGrrr" minDur="10" maxDur="30"/>
+        <phase duration="2"  state="rrrrrrrrrGGGGyrrr"/>
+        <phase duration="40" state="GGGrrrrrrGGGGrrrr" minDur="30" maxDur="50"/>
+        <phase duration="2"  state="GGGryrrrryyyyrrrr"/>
+        <phase duration="20" state="GGGrGGrrrrrrrrrrr" minDur="10" maxDur="30"/>
+        <phase duration="2"  state="yyyryGyryrrrrryrr"/>
+
+    </tlLogic>
+
+    <tlLogic id="cluster_253026160_3774751788_637539664" type="delay_based" programID="2" offset="0">
+
+        <param key="detectorRange" value="100" />
+		<param key="minTimeLoss" value="30" />
+		<param key="file" value="NULL"/>
+		<param key="freq" value="300"/>
+		<param key="show-detectors" value="false"/>
+
+        <phase duration="70"  minDur="60" maxDur="85" state="GGGGGrrr"/>
+        <phase duration="2"  state="yyyyyrrr"/>
+        <phase duration="40" minDur="30" maxDur="50" state="GrrrrGGG"/>
+        <phase duration="2"  state="yrrrryyy"/>
+
+    </tlLogic>
+
+    <tlLogic id="cluster_334472083_7085495071" type="delay_based" programID="2" offset="0">
+
+        <param key="detectorRange" value="100" />
+		<param key="minTimeLoss" value="30" />
+		<param key="file" value="NULL"/>
+		<param key="freq" value="300"/>
+		<param key="show-detectors" value="false"/>
+
+        <phase duration="45" minDur="35" maxDur="55" state="GGGGGrrrrr"/>
+        <phase duration="2"  state="GGGyyryyyy"/>
+        <phase duration="45" minDur="35" maxDur="55" state="GGGryGGGGG"/>
+        <phase duration="2"  state="yyyryyyyyy"/>
+        <phase duration="25" minDur="15" maxDur="35" state="rrrrGGGrrr"/>
+        <phase duration="2"  state="yyyyyyyrrr"/>
+
+    </tlLogic>
+
+    <tlLogic id="cross_junction" type="delay_based" programID="2" offset="0">
+
+        <param key="detectorRange" value="100" />
+		<param key="minTimeLoss" value="30" />
+		<param key="file" value="NULL"/>
+		<param key="freq" value="300"/>
+		<param key="show-detectors" value="false"/>
+
+        <phase duration="65" minDur="55" maxDur="75" state="rrrrGGGGrrrrGGG"/>
+        <phase duration="2"  state="yyyyGGyyyyyyGyy"/>
+        <phase duration="20" minDur="10" maxDur="30" state="rrrrGGrrrGGGGrr"/>
+        <phase duration="2"  state="yryyGGrrryyryrr"/>
+        <phase duration="50" minDur="40" maxDur="60" state="ggGGGGrrrrrrrrr"/>
+        <phase duration="2"  state="yyyyGGyyyrrrrrr"/>
+        <phase duration="20" minDur="10" maxDur="30" state="yyyyGGGGGrrrrrr"/>
+    </tlLogic>
+	
+</additional>

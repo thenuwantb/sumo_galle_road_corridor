@@ -1,0 +1,13 @@
+interval_begin,interval_end,interval_id,edge_arrived,edge_density,edge_departed,edge_entered,edge_id,edge_laneChangedFrom,edge_laneChangedTo,edge_laneDensity,edge_left,edge_numEdges,edge_occupancy,edge_overlapTraveltime,edge_sampledSeconds,edge_speed,edge_speedRelative,edge_timeLoss,edge_traveltime,edge_waitingTime
+3600.00,7200.00,cross_junction_ratmalana_bus,0,4.55,0,4057,AGGREGATED,607,607,0.03,4039,45,0.04,714.53,74746.24,6.41,0.38,11094.31,741.62,4360.00
+3600.00,7200.00,cross_junction_ratmalana_probe,0,0.58,0,1026,AGGREGATED,226,226,0.00,1028,43,0.00,370.03,9173.51,11.94,0.71,2297.04,369.59,735.00
+3600.00,7200.00,wellawatta_kollupitiya_bus,0,2.66,0,3453,AGGREGATED,70,70,0.01,3445,76,0.01,351.00,22098.55,6.62,0.40,3385.54,394.99,1088.00
+3600.00,7200.00,wellawatta_kollupitiya_probe,0,1.03,24,3620,AGGREGATED,169,169,0.00,3644,78,0.00,167.66,8883.47,14.28,0.86,1016.37,167.56,87.00
+7200.00,10800.00,cross_junction_ratmalana_bus,0,7.72,0,5269,AGGREGATED,856,856,0.06,5255,45,0.06,933.23,126887.05,4.91,0.29,46510.93,977.31,20402.00
+7200.00,10800.00,cross_junction_ratmalana_probe,0,0.95,0,939,AGGREGATED,217,217,0.01,937,43,0.00,671.01,15171.20,6.58,0.39,9044.57,680.00,3118.93
+7200.00,10800.00,wellawatta_kollupitiya_bus,0,4.80,0,5622,AGGREGATED,115,115,0.02,5620,76,0.02,389.11,39957.26,5.97,0.36,7504.77,442.34,2930.00
+7200.00,10800.00,wellawatta_kollupitiya_probe,0,0.39,0,1222,AGGREGATED,82,82,0.00,1220,78,0.00,186.32,3314.85,12.85,0.77,646.90,187.07,115.00
+10800.00,14400.00,cross_junction_ratmalana_bus,0,9.51,0,4519,AGGREGATED,554,554,0.07,4511,45,0.08,1332.09,156398.23,3.44,0.21,83195.60,1412.21,40848.00
+10800.00,14400.00,cross_junction_ratmalana_probe,0,1.44,0,862,AGGREGATED,202,202,0.01,862,43,0.00,1093.31,22834.16,4.04,0.24,17076.18,1115.95,5878.27
+10800.00,14400.00,wellawatta_kollupitiya_bus,0,6.48,0,6217,AGGREGATED,114,114,0.02,6205,76,0.02,475.06,53897.28,4.89,0.29,18699.50,547.13,8526.00
+10800.00,14400.00,wellawatta_kollupitiya_probe,0,0.87,0,1448,AGGREGATED,110,110,0.00,1449,78,0.00,356.96,7500.61,6.71,0.40,4393.88,369.04,1221.36

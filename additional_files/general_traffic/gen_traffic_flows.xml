@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+<!--80kmph (22.22m/s) is set as the maximum velocity for the probe vehicle-->
+    <vType id="gen_probe" vClass="passenger"
+           length="4.2" maxSpeed="22.22" width="2.1"
+           minGap="2" color="0,0,1" guiShape="passenger/sedan"
+           sigma="0.7938"
+    />
+
+    <flow id="gen_probe_entire" begin="0" end="18000"
+          period="150" from="112446385#5" to="455043449"
+          type="gen_probe"
+          departLane="free"
+          departSpeed="max"
+    />
+
+<!--    wk is for from wellawatta to Kollupitiya -->
+    <flow id="gen_probe_wk" begin="0" end="7200"
+          period="150" from="WK_MP_001" to="455043449"
+          type="gen_probe"
+          departLane="free"
+          departSpeed="max"
+    />
+</additional>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-03-27 08:52:21 by Eclipse SUMO GUI Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="E:\OneDrive\SUMO\Coding\Coding\bpm_shared_05102021\2_real_network_simulations\2_7_galle_road_6_10_simulator_warmup\network/colombo_galleroad_edges_renamed_60kmph_01082022.net.xml"/>
+        <route-files value="E:\OneDrive\SUMO\Coding\Coding\bpm_shared_05102021\2_real_network_simulations\2_7_galle_road_6_10_simulator_warmup\2_7_route_adjustments.rou.xml"/>
+        <additional-files value="E:\OneDrive\SUMO\Coding\Coding\bpm_shared_05102021\2_real_network_simulations\2_7_galle_road_6_10_simulator_warmup\input_vType_distribution.add.xml,E:\OneDrive\SUMO\Coding\Coding\bpm_shared_05102021\2_real_network_simulations\2_7_galle_road_6_10_simulator_warmup\    additional_files/bus/2_bus_stops_edge_rename.add.xml,E:\OneDrive\SUMO\Coding\Coding\bpm_shared_05102021\2_real_network_simulations\2_7_galle_road_6_10_simulator_warmup\    additional_files/bus/bus_flows_rand_seed.xml,E:\OneDrive\SUMO\Coding\Coding\bpm_shared_05102021\2_real_network_simulations\2_7_galle_road_6_10_simulator_warmup\   additional_files/general_traffic/gen_traffic_flows.xml,E:\OneDrive\SUMO\Coding\Coding\bpm_shared_05102021\2_real_network_simulations\2_7_galle_road_6_10_simulator_warmup\    additional_files/tlLogic/tlLogic_delay_based.add.xml,E:\OneDrive\SUMO\Coding\Coding\bpm_shared_05102021\2_real_network_simulations\2_7_galle_road_6_10_simulator_warmup\    additional_files/edge_output/edge_out_bus.add.xml,E:\OneDrive\SUMO\Coding\Coding\bpm_shared_05102021\2_real_network_simulations\2_7_galle_road_6_10_simulator_warmup\         additional_files/edge_output/edge_out_all_vehicles.add.xml"/>
+    </input>
+
+    <processing>
+        <lateral-resolution value="1.6"/>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <random_number>
+        <seed value="23434"/>
+    </random_number>
+
+</configuration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+</meandata>

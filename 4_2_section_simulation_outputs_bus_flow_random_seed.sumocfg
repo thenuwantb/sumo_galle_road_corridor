@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/03/21 15:13:39 by Eclipse SUMO sumo Version 1.8.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="network/colombo_galleroad_edges_renamed_60kmph_01082022.net.xml"/>
+
+        <additional-files value="additional_files/vtype_dist/input_vType_distribution.add.xml,
+		additional_files/bus/2_bus_stops_edge_rename.add.xml, 
+		additional_files/bus/bus_flows_rand_seed.xml,
+		additional_files/general_traffic/gen_traffic_flows.xml, 
+		additional_files/tlLogic/tlLogic_delay_based.add.xml, 
+		additional_files/edge_output/edge_out_bus.add.xml,
+        additional_files/edge_output/edge_out_all_vehicles.add.xml"
+		/>
+
+        <route-files value="demand/route_sampler_calibrated.rou.xml"/>
+
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <lateral-resolution value="1.6"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <random_number>
+        <seed value="23434"/>
+    </random_number>
+
+    <gui_only>
+    </gui_only>
+
+</configuration>

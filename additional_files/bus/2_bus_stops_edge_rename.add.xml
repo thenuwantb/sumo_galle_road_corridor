@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-07-16 13:28:49 by Eclipse SUMO netedit Version 1.13.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="01_cross_junction" name="Cross Junction" lane="CR_MP_001_0" startPos="60.00" endPos="105.00" friendlyPos="true"/>
+    <busStop id="02_mendis_tower" name="Mendis Tower Hall" lane="CR_MP_005_0" startPos="24.00" endPos="69.00" friendlyPos="true"/>
+    <busStop id="03_rawatawatta" name="Rawatawatta" lane="CR_MP_009_0" startPos="5.00" endPos="50.00"/>
+    <busStop id="04_lakshapathiya" name="Lakshapathiya" lane="CR_MP_012_0" startPos="230.00" endPos="275.00"/>
+    <busStop id="05_commercial_bank_rw" name="Commercial Bank Halt" lane="CR_MP_014_0" startPos="35.00" endPos="80.00"/>
+    <busStop id="06_katubedda_junc" name="Katubedda Junction" lane="CR_MP_KATU_BUS_JUMP_0" startPos="20.00" endPos="65.00" friendlyPos="true"/>
+    <busStop id="07_mallika_bakery" name="Mallika Bekariya Halt" lane="CR_MP_022_0" startPos="45.00" endPos="90.00" friendlyPos="true"/>
+    <busStop id="08_german_tec" name="German Tec Halt" lane="CR_MP_024_0" startPos="125.00" endPos="170.00" friendlyPos="true"/>
+    <busStop id="09_soyza_flat" name="Soyza Flat Halt" lane="CR_MP_026_0" startPos="100.00" endPos="145.00" friendlyPos="true"/>
+    <busStop id="10_golumadama" name="Golumadama Halt" lane="CR_MP_030_0" startPos="4.00" endPos="24.00" friendlyPos="true"/>
+    <busStop id="11_golumadama_sathosa" name="Golumadama Sathosa Halt" lane="CR_MP_035_0" startPos="120.00" endPos="165.00" friendlyPos="true"/>
+    <busStop id="12_belek_kade" name="Belek Kade Junction" lane="CR_MP_037_0" startPos="240.00" endPos="285.00" friendlyPos="true"/>
+    <busStop id="13_vijitha_hall" name="Vijitha Film Hall Halt" lane="CR_MP_040_0" startPos="20.00" endPos="65.00" friendlyPos="true"/>
+    <busStop id="14_maliban_junc" name="Maliban Junction Halt" lane="CR_MP_RATH_BUS_JUMP_0" startPos="5.00" endPos="50.00" friendlyPos="true"/>
+    <busStop id="15_dhramarama_temp" name="Dharmarama Temple Road Halt" lane="758636097#3_0" startPos="30.00" endPos="75.00" friendlyPos="true"/>
+    <busStop id="16_mount_lavinia_police" name="Mount Lavinia Police Station Halt" lane="758636097#3_0" startPos="325.00" endPos="370.00" friendlyPos="true"/>
+    <busStop id="17_ratmalana_depot" name="Ratmalana CTB Depot" lane="758636097#12_0" startPos="30.00" endPos="75.00" friendlyPos="true"/>
+    <busStop id="18_mount_lavinia_junc" name="Mount Lavinia Junction" lane="758636097#25_0" startPos="150.00" endPos="195.00" friendlyPos="true"/>
+    <busStop id="19_mount_lavinia_court" name="Mount Lavinia Magistrate Court" lane="758636097#25_0" startPos="560.00" endPos="584.00" friendlyPos="true"/>
+    <busStop id="20_hotel_road" lane="48701240#4_0" startPos="5.00" endPos="50.00" friendlyPos="true"/>
+    <busStop id="21_odeon_cinema" name="Odeon Cinema" lane="48701240#9_0" startPos="5.00" endPos="50.00" friendlyPos="true"/>
+    <busStop id="22_dehiwala_junc" name="Dehiwala Junction" lane="gneE40_0" startPos="5.00" endPos="60.00" friendlyPos="true"/>
+    <busStop id="23_waydya_rd" name="Waydya Road Halt" lane="50071266#7_0" startPos="125.00" endPos="170.00" friendlyPos="true"/>
+    <busStop id="24_william_junc" name="William Junction" lane="50071266#11_0" startPos="230.00" endPos="275.00" friendlyPos="true"/>
+    <busStop id="25_roxi_cinema" name="Roxi Film Hall Halt" lane="161480084#2_0" startPos="9.00" endPos="34.00" friendlyPos="true"/>
+    <busStop id="26_wellawatta_arpico" name="Wellawatte Arpico Halt" lane="161480084#7_0" startPos="25.00" endPos="70.00"/>
+    <busStop id="27_wellawatta_police" name="Wellawatte Police Station Halt" lane="161480084#17_0" startPos="15.00" endPos="60.00" friendlyPos="true"/>
+    <busStop id="28_wellawatta_mosque" name="Wellawatta Mosque" lane="161480084#22_0" startPos="65.00" endPos="110.00" friendlyPos="true"/>
+    <busStop id="29_savoy_cinema" name="Savoy Cinema" lane="161480084#24_0" startPos="65.00" endPos="110.00" friendlyPos="true"/>
+    <busStop id="30_st_peters" name="St. Peters College Halt" lane="WK_MP_005_0" startPos="10.00" endPos="44.00" friendlyPos="true"/>
+    <busStop id="31_bambalapitiya_flats" name="Bambalapitiya Flats" lane="WK_MP_009_0" startPos="55.00" endPos="100.00" friendlyPos="true"/>
+    <busStop id="32_milagiriya" name="Milagiriya" lane="WK_MP_022_0" startPos="10.00" endPos="34.00" friendlyPos="true"/>
+    <busStop id="33_majestic_city" name="Majestic City" lane="WK_MP_034_0" startPos="40.00" endPos="85.00" friendlyPos="true"/>
+    <busStop id="34_cagills_bank" name="Cargilla Bank Halt" lane="WK_MP_043_0" startPos="2.00" endPos="14.00"/>
+    <busStop id="35_marino_mall" name="Marino Mall Halt" lane="WK_MP_048_0" startPos="4.00" endPos="28.00" friendlyPos="true"/>
+    <busStop id="36_vogue_jewel" name="Vogue Jewellers Halt" lane="WK_MP_056_0" startPos="5.00" endPos="20.00" friendlyPos="true"/>
+    <busStop id="37_pan_asia" name="Kollupitiya Pan Asia Bank Halt" lane="WK_MP_063_0" startPos="2.00" endPos="12.00" friendlyPos="true"/>
+    <busStop id="38_kollupitiya_junc" name="Kollupitiya Junction Halt" lane="WK_MP_077_0" startPos="2.00" endPos="26.00"/>
+</additional>
